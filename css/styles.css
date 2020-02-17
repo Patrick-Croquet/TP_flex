@@ -1,0 +1,60 @@
+#mapage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+header {
+    background-color: #222279;
+    height: 120px;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+}
+
+nav {
+    background-color: #82ff04;
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 50px;
+}
+
+/* li {
+
+} */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    background-color:  #00ffff;
+
+}
+
+article {
+    height: 250px;
+    background-color: #9932cc;
+    padding: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 40%;
+    background-color: #12db98;
+}
+
+footer {
+    height: 50px;
+    background-color: #ff1493;
+
+}
